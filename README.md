@@ -1,2 +1,63 @@
-# IMDb-Python-Scraper
-I wrote a python scraper that fetches the Top 50 (or 25) movies on IMDb and creates a word cloud of the most common plot keywords.
+# IMDb Top Movie Plots – Word Cloud Generator
+
+This Python project scrapes the **Top 50 (or Top 25) movies on IMDb** (or from a specified genre), extracts their **plot summaries**, and generates a **word cloud** to visualize the most common themes and keywords in today's popular films.
+
+---
+
+## Features
+
+* Scrapes plot summaries from IMDb’s Top 50 movies
+* Supports genre-specific analysis (e.g., Action, Comedy, Horror)
+* Generates a word cloud showing the most frequently used words in plots
+* Cleans and processes text using NLTK
+* Visualizes data using `WordCloud` and `matplotlib`
+* Also generates the most common genres (as a bonus)
+
+---
+
+## Requirements
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Key dependencies:
+
+* `requests`
+* `beautifulsoup4`
+* `nltk`
+* `wordcloud`
+* `matplotlib`
+
+---
+
+## How to Use
+
+To run the script and analyze IMDb's top 50 movies:
+
+```bash
+python topMoviesScraper.py
+```
+
+To analyze the top 50 movies in a specific genre (e.g., Action, Comedy):
+
+```bash
+python topMoviesScraper.py --genre Action
+```
+
+> Make sure to use genre names that IMDb recognizes (e.g., `Drama`, `Sci-Fi`, `Thriller`).
+
+---
+
+## Author
+
+Created by [Ahmad Azeez](https://github.com/AhmadAzeez999)
+
+---
+
+## Acknowledgments
+
+* IMDb for the publicly accessible movie data
+* Python community for the powerful open-source libraries :)
