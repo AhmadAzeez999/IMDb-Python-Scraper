@@ -1,3 +1,5 @@
+[![Steam Data Explorer](https://media.licdn.com/dms/image/v2/D5622AQFVTp4dOFxYPg/feedshare-shrink_2048_1536/B56ZbQzN75H4Ao-/0/1747259809992?e=1750291200&v=beta&t=nc0OCnGeG8bnfBUQL2VN-jsZyIe4VVYQdaG6PTdMeow)](https://github.com/AhmadAzeez999/IMDb-Python-Scraper/)
+
 # IMDb Top Movie Plots – Word Cloud Generator
 
 This Python project scrapes the **Top 50 (or Top 25) movies on IMDb** (or from a specified genre), extracts their **plot summaries**, and generates a **word cloud** to visualize the most common themes and keywords in today's popular films.
